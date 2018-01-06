@@ -11,7 +11,7 @@ namespace CoreApp.Tests
         public void Test1()
         {
              var controller = new HomeController();
-            Assert.IsType<ViewResult>(controller.Index());
+            Assert.IsType<Int32>(controller.Index());
         }
     }
 }
